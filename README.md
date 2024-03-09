@@ -37,3 +37,12 @@ dataType name_var = sc.next();
 > Primitive
 
 > Non-Primitive
+
+# Operators
+> Binary
+
+> Unary 
+
+> Ternary
+
+
