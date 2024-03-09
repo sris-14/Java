@@ -3,10 +3,6 @@
 Kickstart with programming language,Java.                                               
 Biolerplate code :
 
-# Variables and dataTypes
-
-This repository includes variables and dataTypes. Some basics in Java also discussed.
-Sample (boilerplate code)
 
 ```
 public class A {
@@ -15,3 +11,28 @@ public class A {
     }
 }
 ```
+
+#How code is running?? 
+source code (.java) --> compiler --> ByteCode (.class) --> JVM --> Native Code 
+                         compilation                                                                                   
+
+# Variables and DataTypes
+>output:                                                                              print 
+ println                                                                               "\n"
+```
+System.out.print("Hello!!");
+```
+
+>input:
+  next(), nextFloat(), nextline, nextBoolean, nextInt, nextShort, nextByte, nextLong...
+```
+import java.util.*;
+
+
+Scanner sc = new Scanner(System.in);
+dataType name_var = sc.next();
+```
+
+#DataTypes :
+> Primitive
+> Non-Primitive
