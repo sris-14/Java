@@ -14,7 +14,7 @@ public class A {
 
 #How code is running?? 
 source code (.java) --> compiler --> ByteCode (.class) --> JVM --> Native Code 
-                         compilation                                                                                   
+
 
 # Variables and DataTypes
 >output:                                                                              print 
@@ -35,4 +35,5 @@ dataType name_var = sc.next();
 
 #DataTypes :
 > Primitive
+
 > Non-Primitive
