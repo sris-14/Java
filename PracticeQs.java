@@ -15,7 +15,7 @@ public class PracticeQs {
         System.out.println("area of square is : "+(side*side));
 
         //3.
-        // int $=24;(no error occurred)
+        // int $=24;(no error occurred) 
         sc.close();
     }
 }
