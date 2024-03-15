@@ -58,6 +58,8 @@ public class Basic{
         } 
         search(matrix, 4);
         System.out.println("largest element : "+largest(matrix));
+
+        sc.close();
     }
 
 
