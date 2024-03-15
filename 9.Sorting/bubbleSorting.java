@@ -10,10 +10,11 @@ public class bubbleSorting{
                   arr[j+1] =temp;
                   swap ++;
                }
+               if(swap ==0){
+                  break;
+               }
             }
-            if(swap ==0){
-               System.out.println("array is already sorted!");
-            }
+            
          }
      }
      public static void printArr(int arr[]){
