@@ -1,5 +1,20 @@
 public class search {
 
+    public static void staircaseSearch(int matrix[][], int key){
+        int row =matrix.length-1;
+        int col =0;
+        while(row < matrix.length && col >=0){
+           if(matrix[row][col] == key){
+               System.out.print("found at index: ("+row+","+col+ ")");
+               break;
+           } else if(key < matrix[row][col]){
+               row--;
+           } else {
+               col ++;
+           }
+        }
+    }
+
     public static boolean StaircaseSearch(int matrix[][], int key){
          int row =0;
          int col = matrix[0].length -1;
@@ -22,6 +37,7 @@ public class search {
                       {27, 29, 37, 48},
                       {32, 33, 39, 50}};
       int key =33;
-      StaircaseSearch(matrix, key);
+    //   StaircaseSearch(matrix, key);
+      staircaseSearch(matrix, key);
     }
 }
