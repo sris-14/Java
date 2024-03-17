@@ -9,6 +9,7 @@ public class palindrome {
         }
         return true;
     }
+    // TC : O(n)
     public static void main(String args[]){
         String str ="racecar";
         System.out.println(isPalindrome(str));
