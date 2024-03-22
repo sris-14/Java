@@ -18,17 +18,20 @@ public class BitOperations {
     }
 
     public static int updateIthBit(int n, int i, int newBit){
-        if(newBit == 0 ){
-            return clearIthBit(n, i);
-        } else {
-            return setIthBit(n, i);
-        }
+        // if(newBit == 0 ){
+        //     return clearIthBit(n, i);
+        // } else {
+        //     return setIthBit(n, i);
+        // }
+         n = clearIthBit(n, i);
+         int bitMask = (newBit << i);
+         return n|bitMask;
     }
     public static void main(String args[]){
        System.out.println("getIthBit : "+getIthBit(10, 3));
        System.out.println("setIthBit : "+setIthBit(10, 2));
        System.out.println("clearIthBit : "+clearIthBit(10, 1));
 
-       System.out.println("upadte ith bit : " +updateIthBit(0, 0, 0));
+       System.out.println("upadte ith bit : " +updateIthBit(10, 2, 1));
     }
 }
