@@ -142,7 +142,7 @@ class Student {
 }
 ```
 Constructor ----- Parameterized Constructor  
-&ensp;    |  |------- Non-Parameterized Constructor   
+&ensp;    |&ensp;|------- Non-Parameterized Constructor   
 &ensp;    |------- Copy Constructor
 
 here comes, Non-Paramterized and Paramaterized Constructor
