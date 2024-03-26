@@ -365,3 +365,84 @@ class Dog extends Mammal{
 }
 
 ```
+Hierarchial Inheritance
+
+```
+public class Class6 {
+    public static void main(String args[]){
+       Bird birdy = new Bird();
+       birdy.breath();
+       birdy.fly();
+    }
+}
+// Hierarchial Inheritace
+class Animal{
+    String color;
+
+    void eats(){
+        System.out.println("eats");
+    }
+
+    void breath(){
+        System.out.println("breathes");
+    }
+}
+
+class Mammal extends Animal{
+    void walk(){
+        System.out.println("walks");
+    }
+}
+
+class Fish extends Animal{
+    void swim(){
+        System.out.println("swims");
+    }
+}
+
+class Bird extends Animal{
+    void fly(){
+        System.out.println("fly");
+    }
+}
+
+```
+
+Hybrid Inheritance
+
+```
+```
+
+Polymorphism :   
+Compile Time Polymorphism-   
+It contain Method Overloading. It is static.   
+```
+public class Class8 {
+    public static void main(String args[]){
+       Calculator calc = new Calculator();
+       System.out.println(calc.sum(1, 2));
+       System.out.println(calc.sum(2.4f, 5.2f));
+       System.out.println(calc.sum(1,2,3));
+    }
+}
+
+// Polymorphism : Compile Time Polymorphism(Static)
+// Method Overloading / Function Overloading
+class Calculator{
+    int sum(int a, int b){
+        return a+b;
+    }
+
+    float sum(float a, float b){
+        return a+b;
+    }
+
+    int sum(int a, int b, int c){
+        return a+b+c;
+    }
+}
+
+```
+
+Run Time Polymorphism -   
+It is dynamic and include Function Overriding.
