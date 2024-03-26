@@ -61,8 +61,8 @@ dataType name_var = sc.next();
      Pen p1 = new Pen();
      p1.setColor("Blue");
 
-     <!-- Alternative way : 
-     p1.color = "Yellow"; -->
+     //Alternative way : 
+     //p1.color = "Yellow";
 
      System.out.println(p1.color);
 
@@ -119,6 +119,30 @@ class Student {
     
     }
 }
-```           
+```  
+Running statement inside the constructor. 
+This is also an example of non paramterized constructor
+```
+public class OOPS_class2{
+    public static void main(String args[]){
+        Student s1 = new Student();
+        // System.out.println(s1.name);
+      }
+}
+
+class Student {
+    String name;
+    int roll;
+
+    Student(){
+       System.out.println("constructor is called...");
+    
+    }
+}
+```
+Constructor ----- Parameterized Constructor
+      |  |------- Non-Parameterized Constructor
+      |---------- Copy Constructor
+
 
 
