@@ -54,8 +54,9 @@ dataType name_var = sc.next();
    color : String (blue)                               
    tip : 5 (int)                                      
    setColor(): 
-   setTip() :                                        
-  ```
+   setTip() : 
+
+```
  public class OOPS{
   public static void main(String args[]){
      Pen p1 = new Pen();
@@ -84,7 +85,7 @@ dataType name_var = sc.next();
   }
  }
 
-  ```
+```
 
 Access Modifier :                                 
  It define who can access the class or objects.  
@@ -141,7 +142,9 @@ class Student {
 }
 ```
 Constructor ----- Parameterized Constructor
+      |  |
       |  |------- Non-Parameterized Constructor
+      |
       |---------- Copy Constructor
 
 here comes, Non-Paramterized and Paramaterized Constructor
