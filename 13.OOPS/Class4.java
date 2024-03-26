@@ -4,7 +4,7 @@ public class Class4{
         shark.eat();
    }
 }
-
+// single level inheritance
 class Animal{
    String color;
    void eat(){
