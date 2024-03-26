@@ -54,15 +54,16 @@ dataType name_var = sc.next();
    color : String (blue)                               
    tip : 5 (int)                                      
    setColor(): 
-
    setTip() :                                        
   ```
  public class OOPS{
   public static void main(String args[]){
      Pen p1 = new Pen();
      p1.setColor("Blue");
-     #Alternative way : 
-      # p1.color = "Yellow";
+
+     <!-- Alternative way : 
+     p1.color = "Yellow"; -->
+
      System.out.println(p1.color);
 
      p1.setTip(5);
@@ -95,6 +96,29 @@ Access Modifier :
  3. Protected : 
     > can be access within the class, within package and outside package by subclass only
  4. Public :
-    > can be access within the class, within package & outside package           
+    > can be access within the class, within package & outside package   
+
+
+ Getters and Setter
+
+ Constructor 
+ ```
+ public class OOPS_class2{
+    public static void main(String args[]){
+        Student s1 = new Student("srishti");
+        System.out.println(s1.name);
+      }
+}
+
+class Student {
+    String name;
+    int roll;
+
+    Student(String name){
+        this.name = name;
+    
+    }
+}
+```           
 
 
