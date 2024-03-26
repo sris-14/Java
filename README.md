@@ -46,9 +46,14 @@ dataType name_var = sc.next();
 > Ternary
 
 # OOPS 
- Classes and Objects :                                Entities which exist in the real world are called Objects. It could be anything like - pen, watch, animal, etc.                                         Group of these entities which we called objects are called Classes. In simple words we can say, when similar types of items get grouped together and forms a collection, then this collection is our class. Class is the blueprint of an object.          > Class = attributes (properties) + function (behavior)                                        color : String (blue)                               tip : 5 (int)                                       setColor(): 
-
- setTip()                                         
+ Classes and Objects :                                
+ Entities which exist in the real world are called Objects. It could be anything like - pen, watch, animal, etc.                                         
+ Group of these entities which we called objects are called Classes. In simple words we can say, when similar types of items get grouped together and forms a collection, then this collection is our class. Class is the blueprint of an object.         
+  > Class = attributes (properties) + function (behavior)                                       
+   color : String (blue)                               
+   tip : 5 (int)                                      
+   setColor(): 
+   setTip()                                         
   ```
  public class OOPS{
   public static void main(String args[]){
@@ -79,6 +84,15 @@ dataType name_var = sc.next();
   ```
 
 Access Modifier :                                 
- It define who can access the class or objects.   
+ It define who can access the class or objects.  
+ It include :
+ 1. Private :
+    > can be access within the class
+ 2. Default :
+    > can be access within the class as well as within the package
+ 3. Protected : 
+    > can be access within the class, within package and outside package by subclass only
+ 4. Public :
+    > can be access within the class, within package & outside package           
 
 
