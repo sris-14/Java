@@ -10,10 +10,24 @@ public class OOPS{
         // p1.setTip(5);
         p1.tip = 5;
         System.out.println(p1.tip);
+
+        BankAccount myAcc= new BankAccount();
+        myAcc.username = "srishti";
+        myAcc.setPassword("abcd");
     }
     
 }
 // Blueprint of class
+
+class BankAccount{
+    public String username;
+    private String password; 
+
+    public void setPassword(String pwd){
+        password = pwd;
+    }
+
+}
 
 // multiple classes can be made
 // by convention classes name start with capital letter
