@@ -53,7 +53,7 @@ dataType name_var = sc.next();
   E.g;                                     
    color : String (blue)                               
    tip : 5 (int)                                      
-   setColor(): 
+   setColor():   
    setTip() : 
 
 ```
