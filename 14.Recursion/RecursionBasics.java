@@ -1,6 +1,5 @@
 public class RecursionBasics {
     public static void printInc(int n){
-       
         if(n == 1){
             System.out.print(n+" ");
             return;
