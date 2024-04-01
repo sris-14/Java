@@ -1,5 +1,39 @@
 public class SortedRotated {
 
+    //using iterators
+    public static int Search(int arr[], int tar, int si, int ei){
+        int i = si;
+        int j = ei;
+
+        //Base case
+        if(i>j){
+            return -1;
+        }
+        int mid = si + (ei - si)/2;
+        if(arr[mid] == tar){
+            return mid;
+        }
+        // for(int k=i; k< j ; k++){
+            if(arr[i]<=arr[mid]){
+                if(arr[i] <= tar && tar <= arr[mid]){
+                    j = mid-1;
+                } else {
+                    i = mid+1;
+                }
+                mid = i+ (j-i)/2 ;
+            } else {
+                if(arr[mid] <= tar && tar <=arr[j]){
+                    i = mid+1;
+                } else {
+                    j = mid-1;
+                }
+                mid = i + (j-i)/2 ;
+            }
+        // }
+     
+        return mid;
+    }
+     //using recursion
     public static int search(int arr[], int tar, int si, int ei){
         //Base Case
         if(si > ei){
@@ -42,5 +76,6 @@ public class SortedRotated {
         int target = 0;//output -> 4
         int targetIdx = search(arr, target, 0, arr.length-1);
         System.out.println(targetIdx);
+        System.out.println(Search(arr, target, 0, arr.length-1));
     }
 }
