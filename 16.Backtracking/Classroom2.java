@@ -3,7 +3,7 @@ public class Classroom2 {
         //Base case
         if(i == str.length()){
             if(ans.length() == 0){
-                System.out.println("null");
+                System.out.print("null");
             }
           System.err.println(ans + " ");
           return;
