@@ -1,5 +1,15 @@
 import java.util.*;
 public class Pairsum {
+    public static boolean pairSum_1(ArrayList<Integer>list, int target){
+        int lp = 0;
+        int rp = list.size()-1;
+        while(lp < rp){
+            if(list.get(lp) + list.get(rp) == target){
+                return true;
+            }
+        }
+        return false ;
+    }
     //Brute force
     public static boolean pairSum1(ArrayList<Integer> list, int target){
          for(int i=0; i<list.size(); i++){
@@ -21,6 +31,6 @@ public class Pairsum {
         list.add(5);
         list.add(6);
         int target = 5;
-        System.out.println(pairSum1(list,target));
+        System.out.println(pairSum_1(list,target));
     }
 }
