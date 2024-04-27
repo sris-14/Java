@@ -14,6 +14,7 @@ public class Pairsum {
             } else {
                 //case 3
                 rp --;
+                
             }
         }
         return false ;
